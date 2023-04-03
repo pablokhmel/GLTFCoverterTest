@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830C44B226F292C60075CCBF /* GLTFKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C44B126F292C60075CCBF /* GLTFKit2.framework */; };
+		830C44B326F292C60075CCBF /* GLTFKit2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830C44B126F292C60075CCBF /* GLTFKit2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		830C44B526F29B2C0075CCBF /* GLTFKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C44B126F292C60075CCBF /* GLTFKit2.framework */; };
+		830C44B626F29B2C0075CCBF /* GLTFKit2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830C44B126F292C60075CCBF /* GLTFKit2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		833684CC26F139840057B9CA /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833684CB26F139830057B9CA /* Quartz.framework */; };
+		833684D026F139840057B9CA /* GLTFPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833684CF26F139840057B9CA /* GLTFPreviewViewController.m */; };
+		833684D626F139840057B9CA /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833684D426F139840057B9CA /* PreviewViewController.xib */; };
+		833684DA26F139840057B9CA /* GLTFQuickLook.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 833684CA26F139830057B9CA /* GLTFQuickLook.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		833684E226F154DA0057B9CA /* studio.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 833684E026F154D40057B9CA /* studio.hdr */; };
+		833684E326F154DA0057B9CA /* studio.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 833684E026F154D40057B9CA /* studio.hdr */; };
+		833684E426F154DD0057B9CA /* studio-ql.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 833684E126F154D40057B9CA /* studio-ql.hdr */; };
+		8373775926F14D6400595C2A /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8373775826F14D6400595C2A /* QuickLook.framework */; };
+		83AB9EA126D98BEB00FD9C95 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 83AB9EA026D98BCF00FD9C95 /* Models */; };
+		83CFBF4826F2BE66003BEBFA /* GLTFKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C44B126F292C60075CCBF /* GLTFKit2.framework */; };
+		83D27444286B768E0003A3C5 /* SampleDracoPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83D27442286B76870003A3C5 /* SampleDracoPlugin.mm */; };
+		83D5B17B278295600015E015 /* AnimationPlaybackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D5B179278295600015E015 /* AnimationPlaybackView.xib */; };
+		83D5B17D278295C30015E015 /* AnimationPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D5B17C278295C30015E015 /* AnimationPlaybackViewController.swift */; };
+		83D9950525C6573C00B5B234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9950425C6573C00B5B234 /* AppDelegate.swift */; };
+		83D9950725C6573C00B5B234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9950625C6573C00B5B234 /* ViewController.swift */; };
+		83D9950925C6573C00B5B234 /* GLTFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9950825C6573C00B5B234 /* GLTFDocument.swift */; };
+		83D9950B25C6573E00B5B234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D9950A25C6573E00B5B234 /* Assets.xcassets */; };
+		83D9950E25C6573E00B5B234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D9950C25C6573E00B5B234 /* Main.storyboard */; };
+		83FFB68B26CF0CF3008AE676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FFB68A26CF0CF3008AE676 /* AppDelegate.swift */; };
+		83FFB68F26CF0CF3008AE676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FFB68E26CF0CF3008AE676 /* ViewController.swift */; };
+		83FFB69226CF0CF3008AE676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FFB69026CF0CF3008AE676 /* Main.storyboard */; };
+		83FFB69426CF0CF5008AE676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FFB69326CF0CF5008AE676 /* Assets.xcassets */; };
+		83FFB69726CF0CF5008AE676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FFB69526CF0CF5008AE676 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833684D826F139840057B9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D994F925C6573C00B5B234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833684C926F139830057B9CA;
+			remoteInfo = GLTFQuickLook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		833684DB26F139840057B9CA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				833684DA26F139840057B9CA /* GLTFQuickLook.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83869A5725C671B4006CAFF1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				830C44B326F292C60075CCBF /* GLTFKit2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FFB69F26CF0F7B008AE676 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				830C44B626F29B2C0075CCBF /* GLTFKit2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		830C44B126F292C60075CCBF /* GLTFKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLTFKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833684CA26F139830057B9CA /* GLTFQuickLook.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GLTFQuickLook.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		833684CB26F139830057B9CA /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		833684CE26F139840057B9CA /* GLTFPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTFPreviewViewController.h; sourceTree = "<group>"; };
+		833684CF26F139840057B9CA /* GLTFPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTFPreviewViewController.m; sourceTree = "<group>"; };
+		833684D526F139840057B9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreviewViewController.xib; sourceTree = "<group>"; };
+		833684D726F139840057B9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833684E026F154D40057B9CA /* studio.hdr */ = {isa = PBXFileReference; lastKnownFileType = text; path = studio.hdr; sourceTree = "<group>"; };
+		833684E126F154D40057B9CA /* studio-ql.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "studio-ql.hdr"; sourceTree = "<group>"; };
+		8373775826F14D6400595C2A /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		83AB9EA026D98BCF00FD9C95 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		83D27441286B76870003A3C5 /* SampleDracoPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleDracoPlugin.h; sourceTree = "<group>"; };
+		83D27442286B76870003A3C5 /* SampleDracoPlugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleDracoPlugin.mm; sourceTree = "<group>"; };
+		83D5B17A278295600015E015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AnimationPlaybackView.xib; sourceTree = "<group>"; };
+		83D5B17C278295C30015E015 /* AnimationPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPlaybackViewController.swift; sourceTree = "<group>"; };
+		83D9950125C6573C00B5B234 /* glTF Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glTF Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D9950425C6573C00B5B234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D9950625C6573C00B5B234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D9950825C6573C00B5B234 /* GLTFDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFDocument.swift; sourceTree = "<group>"; };
+		83D9950A25C6573E00B5B234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D9950D25C6573E00B5B234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D9950F25C6573E00B5B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FFB68826CF0CF3008AE676 /* glTF Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glTF Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FFB68A26CF0CF3008AE676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83FFB68E26CF0CF3008AE676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83FFB69126CF0CF3008AE676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83FFB69326CF0CF5008AE676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83FFB69626CF0CF5008AE676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83FFB69826CF0CF5008AE676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833684C726F139830057B9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CFBF4826F2BE66003BEBFA /* GLTFKit2.framework in Frameworks */,
+				8373775926F14D6400595C2A /* QuickLook.framework in Frameworks */,
+				833684CC26F139840057B9CA /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D994FE25C6573C00B5B234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830C44B226F292C60075CCBF /* GLTFKit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FFB68526CF0CF3008AE676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830C44B526F29B2C0075CCBF /* GLTFKit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833684CD26F139840057B9CA /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				833684CE26F139840057B9CA /* GLTFPreviewViewController.h */,
+				833684CF26F139840057B9CA /* GLTFPreviewViewController.m */,
+				833684D426F139840057B9CA /* PreviewViewController.xib */,
+				833684D726F139840057B9CA /* Info.plist */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		833684DF26F154D40057B9CA /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				833684E026F154D40057B9CA /* studio.hdr */,
+				833684E126F154D40057B9CA /* studio-ql.hdr */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		83869A5325C671B4006CAFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830C44B126F292C60075CCBF /* GLTFKit2.framework */,
+				8373775826F14D6400595C2A /* QuickLook.framework */,
+				833684CB26F139830057B9CA /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D994F825C6573C00B5B234 = {
+			isa = PBXGroup;
+			children = (
+				833684DF26F154D40057B9CA /* Backgrounds */,
+				83AB9EA026D98BCF00FD9C95 /* Models */,
+				83D9950325C6573C00B5B234 /* macOS */,
+				83FFB68926CF0CF3008AE676 /* iOS */,
+				833684CD26F139840057B9CA /* QuickLook */,
+				83D9950225C6573C00B5B234 /* Products */,
+				83869A5325C671B4006CAFF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83D9950225C6573C00B5B234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D9950125C6573C00B5B234 /* glTF Viewer.app */,
+				83FFB68826CF0CF3008AE676 /* glTF Viewer.app */,
+				833684CA26F139830057B9CA /* GLTFQuickLook.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D9950325C6573C00B5B234 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				83D9950425C6573C00B5B234 /* AppDelegate.swift */,
+				83D9950625C6573C00B5B234 /* ViewController.swift */,
+				83D9950825C6573C00B5B234 /* GLTFDocument.swift */,
+				83D5B17C278295C30015E015 /* AnimationPlaybackViewController.swift */,
+				83D27441286B76870003A3C5 /* SampleDracoPlugin.h */,
+				83D27442286B76870003A3C5 /* SampleDracoPlugin.mm */,
+				83D9950A25C6573E00B5B234 /* Assets.xcassets */,
+				83D5B179278295600015E015 /* AnimationPlaybackView.xib */,
+				83D9950C25C6573E00B5B234 /* Main.storyboard */,
+				83D9950F25C6573E00B5B234 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		83FFB68926CF0CF3008AE676 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83FFB68A26CF0CF3008AE676 /* AppDelegate.swift */,
+				83FFB68E26CF0CF3008AE676 /* ViewController.swift */,
+				83FFB69026CF0CF3008AE676 /* Main.storyboard */,
+				83FFB69326CF0CF5008AE676 /* Assets.xcassets */,
+				83FFB69526CF0CF5008AE676 /* LaunchScreen.storyboard */,
+				83FFB69826CF0CF5008AE676 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833684C926F139830057B9CA /* GLTFQuickLook-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833684DE26F139840057B9CA /* Build configuration list for PBXNativeTarget "GLTFQuickLook-macOS" */;
+			buildPhases = (
+				833684C626F139830057B9CA /* Sources */,
+				833684C726F139830057B9CA /* Frameworks */,
+				833684C826F139830057B9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLTFQuickLook-macOS";
+			productName = GLTFQuickLook;
+			productReference = 833684CA26F139830057B9CA /* GLTFQuickLook.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		83D9950025C6573C00B5B234 /* GLTFViewer-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D9951325C6573E00B5B234 /* Build configuration list for PBXNativeTarget "GLTFViewer-macOS" */;
+			buildPhases = (
+				83D994FD25C6573C00B5B234 /* Sources */,
+				83D994FE25C6573C00B5B234 /* Frameworks */,
+				83D994FF25C6573C00B5B234 /* Resources */,
+				83869A5725C671B4006CAFF1 /* Embed Frameworks */,
+				833684DB26F139840057B9CA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833684D926F139840057B9CA /* PBXTargetDependency */,
+			);
+			name = "GLTFViewer-macOS";
+			productName = GLTFViewer;
+			productReference = 83D9950125C6573C00B5B234 /* glTF Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83FFB68726CF0CF3008AE676 /* GLTFViewer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FFB69B26CF0CF5008AE676 /* Build configuration list for PBXNativeTarget "GLTFViewer-iOS" */;
+			buildPhases = (
+				83FFB68426CF0CF3008AE676 /* Sources */,
+				83FFB68526CF0CF3008AE676 /* Frameworks */,
+				83FFB68626CF0CF3008AE676 /* Resources */,
+				83FFB69F26CF0F7B008AE676 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLTFViewer-iOS";
+			productName = GLTFViewer_iOS;
+			productReference = 83FFB68826CF0CF3008AE676 /* glTF Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D994F925C6573C00B5B234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					833684C926F139830057B9CA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					83D9950025C6573C00B5B234 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					83FFB68726CF0CF3008AE676 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 83D994FC25C6573C00B5B234 /* Build configuration list for PBXProject "GLTFViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D994F825C6573C00B5B234;
+			productRefGroup = 83D9950225C6573C00B5B234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D9950025C6573C00B5B234 /* GLTFViewer-macOS */,
+				83FFB68726CF0CF3008AE676 /* GLTFViewer-iOS */,
+				833684C926F139830057B9CA /* GLTFQuickLook-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833684C826F139830057B9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833684D626F139840057B9CA /* PreviewViewController.xib in Resources */,
+				833684E426F154DD0057B9CA /* studio-ql.hdr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D994FF25C6573C00B5B234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D5B17B278295600015E015 /* AnimationPlaybackView.xib in Resources */,
+				83D9950B25C6573E00B5B234 /* Assets.xcassets in Resources */,
+				833684E226F154DA0057B9CA /* studio.hdr in Resources */,
+				83D9950E25C6573E00B5B234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FFB68626CF0CF3008AE676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AB9EA126D98BEB00FD9C95 /* Models in Resources */,
+				83FFB69726CF0CF5008AE676 /* LaunchScreen.storyboard in Resources */,
+				83FFB69426CF0CF5008AE676 /* Assets.xcassets in Resources */,
+				833684E326F154DA0057B9CA /* studio.hdr in Resources */,
+				83FFB69226CF0CF3008AE676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833684C626F139830057B9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833684D026F139840057B9CA /* GLTFPreviewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D994FD25C6573C00B5B234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D9950725C6573C00B5B234 /* ViewController.swift in Sources */,
+				83D5B17D278295C30015E015 /* AnimationPlaybackViewController.swift in Sources */,
+				83D27444286B768E0003A3C5 /* SampleDracoPlugin.mm in Sources */,
+				83D9950525C6573C00B5B234 /* AppDelegate.swift in Sources */,
+				83D9950925C6573C00B5B234 /* GLTFDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FFB68426CF0CF3008AE676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FFB68F26CF0CF3008AE676 /* ViewController.swift in Sources */,
+				83FFB68B26CF0CF3008AE676 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833684D926F139840057B9CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833684C926F139830057B9CA /* GLTFQuickLook-macOS */;
+			targetProxy = 833684D826F139840057B9CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833684D426F139840057B9CA /* PreviewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833684D526F139840057B9CA /* Base */,
+			);
+			name = PreviewViewController.xib;
+			sourceTree = "<group>";
+		};
+		83D5B179278295600015E015 /* AnimationPlaybackView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D5B17A278295600015E015 /* Base */,
+			);
+			name = AnimationPlaybackView.xib;
+			sourceTree = "<group>";
+		};
+		83D9950C25C6573E00B5B234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D9950D25C6573E00B5B234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83FFB69026CF0CF3008AE676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83FFB69126CF0CF3008AE676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83FFB69526CF0CF5008AE676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83FFB69626CF0CF5008AE676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833684DC26F139840057B9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GLTFQuickLook;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-macos.quicklook";
+				PRODUCT_NAME = GLTFQuickLook;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		833684DD26F139840057B9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GLTFQuickLook;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-macos.quicklook";
+				PRODUCT_NAME = GLTFQuickLook;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		83D9951125C6573E00B5B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D9951225C6573E00B5B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		83D9951425C6573E00B5B234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-macos";
+				PRODUCT_NAME = "glTF Viewer";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83D9951525C6573E00B5B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-macos";
+				PRODUCT_NAME = "glTF Viewer";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83FFB69926CF0CF5008AE676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-ios";
+				PRODUCT_NAME = "glTF Viewer";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83FFB69A26CF0CF5008AE676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metalbyexample.gltfkit2.viewer-ios";
+				PRODUCT_NAME = "glTF Viewer";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833684DE26F139840057B9CA /* Build configuration list for PBXNativeTarget "GLTFQuickLook-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833684DC26F139840057B9CA /* Debug */,
+				833684DD26F139840057B9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D994FC25C6573C00B5B234 /* Build configuration list for PBXProject "GLTFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D9951125C6573E00B5B234 /* Debug */,
+				83D9951225C6573E00B5B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D9951325C6573E00B5B234 /* Build configuration list for PBXNativeTarget "GLTFViewer-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D9951425C6573E00B5B234 /* Debug */,
+				83D9951525C6573E00B5B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FFB69B26CF0CF5008AE676 /* Build configuration list for PBXNativeTarget "GLTFViewer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FFB69926CF0CF5008AE676 /* Debug */,
+				83FFB69A26CF0CF5008AE676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D994F925C6573C00B5B234 /* Project object */;
+}
